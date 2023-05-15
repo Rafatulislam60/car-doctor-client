@@ -28,7 +28,7 @@ const NavBar = () => {
             <Link to="/bookings">My Bookings</Link>
           </li>
           <li>
-            <button onClick={handleLogOut}>LogOut</button>
+            <button className="btn btn-warning" onClick={handleLogOut}>LogOut</button>
           </li>
         </>
       ) : (
